@@ -3,9 +3,9 @@ from email.mime.text import MIMEText
 from config import EMAIL_CONFIG
 
 def send_alert(found_data):
-    sender = EMAIL_CONFIG["vineeths2323@gmail.com"]
-    password = EMAIL_CONFIG["ypjs nuoz xmvn nggz"]
-    receiver = EMAIL_CONFIG["mailforpersonal23@gmail.com"]
+    sender = EMAIL_CONFIG["sender email"]
+    password = EMAIL_CONFIG["app pasword"]
+    receiver = EMAIL_CONFIG["receiver email"]
 
     subject = "Dark Web Alert: Sensitive Data Found"
     body = f"Warning! We found the following data:\n\n{found_data}"
