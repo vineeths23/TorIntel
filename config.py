@@ -16,9 +16,9 @@ SITES_TO_MONITOR = [
 
 
 EMAIL_CONFIG = {
-    "sender": os.getenv("vineeths2323@gmail.com"),
-    "password": os.getenv("ypjs nuoz xmvn nggz"),
-    "receiver": os.getenv("mailforpersonal23@gmail.com")
+    "sender": os.getenv("sender email"),
+    "password": os.getenv("app password"),
+    "receiver": os.getenv("receiver email")
 }
 
 DATABASE_FILE = "data/leaked_data.db"
