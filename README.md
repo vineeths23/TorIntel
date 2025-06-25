@@ -1,4 +1,4 @@
-# Dark Web Monitoring Tool
+# TorIntel (Dark Web Monitoring Tool)
 
 This tool scans the dark web for potential leaks of sensitive information. It connects to the Tor network and scrapes hidden services (.onion sites) to detect if an organization's data is exposed.
 
